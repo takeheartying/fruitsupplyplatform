@@ -1,0 +1,160 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+a{text-decoration:none;color:black;}
+a:link{
+	text-decoration:none;
+
+}
+a:hover{
+	color:#A3D176;
+}
+li{list-style: none;}
+#container{
+	width:100%;
+	height:1000px;
+	font-family:微软雅黑;
+	font-size: 14px;
+	/*background-color: #F2F2F2;*/
+}
+#navigation{
+	/*background-color: #363636;
+	// background-color: #293038;*/
+	width:100%;
+	height:60px;
+	box-shadow: 0 0 5px 5px #DFDFDC;
+}
+#navigation div{
+	float: left;
+	/*border:1px solid black;*/
+}
+#nav-title,#nav-title-right{
+	height: 60px;
+}
+#nav-title{
+	line-height:60px;
+	padding-left: 2%;
+	font-size: 24px;
+}
+#nav-title-right div{
+	float: left;
+	text-align: center;
+}
+@media only screen and (max-width:800px){
+	#nav-pic div:nth-child(1){
+		right:80px;
+	}
+}
+#mynavbtn{
+	color:white;
+}
+#left-nav{
+	height:auto;
+}
+/*.uk-panel{
+	background-color: #363636;
+	padding: 0;
+}*/
+.uk-accordion-title{
+	width:86%;
+	height: 40px;
+	margin-top: 0;
+	margin-bottom:0;
+	background:none;
+	font-size: 18px;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+	color:white;
+}
+.uk-accordion-content{
+	/*background-color: #434343;*/
+}
+/*#nav-sub a{
+	color: white;
+}*/
+/*.uk-nav-sub li{
+	height: 40px;
+	line-height: 40px;
+	text-align:center;
+	font-size: 16px;
+}*/
+/*#nav-second,#nav-second1,#nav-second2,#nav-second3{
+	height:auto;
+	line-height: 40px;
+	text-align: center;
+}*/
+/*#nav-third li,#nav-third1 li,#nav-third2 li,#nav-third3 li{
+	height: 40px;
+	width:100%;
+	background-color: #666666;
+}*/
+#nav-second-title{
+	margin-left: 8%;
+}
+#nav-third,#nav-third1,#nav-third2,#nav-third3{
+	display: none;
+}
+#mycontainer{
+   margin-left:-20px;
+}
+.list-group-item{
+	width:150px;
+	height:50px;
+	text-align:left;
+	text-indent: 10px;
+	background-color:#A3D176;
+	border:none;
+	color:white;
+}
+.list-group-item:hover{
+	background-color: #96CB62;
+	opacity:0.8;
+	color:white;
+}
+.glyphicon{
+	font-size:14px;
+}
+.myNotice{
+	text-indent:25px;
+}
+#leftContainer{
+	width:150px;
+	height:600px;
+    margin:0;
+    padding:0;
+	background-color:#A3D176;
+}
+.level0{
+  font-size:16px;
+}
+.level1{
+	/*// text-indent:10px;*/
+	font-size:14px;
+	background-color: white;
+	color: #666666;
+}
+#mylist-group-item{
+	/*background-color: #96CB62;*/
+	text-indent: 25px;
+
+}
+.myA,.myA:visited{
+	color:white;
+
+}
+.mylevel2:link,.myA:link{
+text-decoration:none;
+color:#666666;
+}
+.mylevel2:hover{
+  color:white;
+/*text-decoration:none;*/
+}
+#nav-title img{
+	width:80px;
+	height:60px;
+	z-index: 99;
+}

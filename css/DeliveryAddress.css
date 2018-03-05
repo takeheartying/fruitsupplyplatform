@@ -1,0 +1,53 @@
+#mytitle{
+	height: 50px;
+	line-height: 50px;
+	background-color: ;
+	font-size:16px;
+	border-bottom:solid 0.1px #F1EEEE;
+}
+.uk-form-row label{
+	float:left; 
+	height: 40px;
+	line-height: 40px;
+}
+.uk-form-row input{
+	float:left; 	
+}
+.prompt{
+	height: 40px;
+	line-height: 40px;
+	color:red;
+}
+#mytownPrompt,#userAddressPrompt{
+	position: relative;
+	left:-0.3%;
+	height: 40px;
+	line-height: 40px;
+	color:red;	
+}
+#SetDefaultAddress{
+	position: relative;
+	left:27%;
+}
+#submitBtn{
+	color:white;
+	height: 40px;
+	position: relative;
+	left:25%;
+  background: -webkit-linear-gradient(left, #33FF99 ,  #33FF66); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #33FF99, #33FF66); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right, #33FF99,  #33FF66); /* Firefox 3.6 - 15 */
+  background: linear-gradient(to right, #33FF99 , #33FF66); /* 鏍囧噯鐨勮娉� */
+}
+#submitBtn:hover{
+	color:white;
+	text-shadow: 0 0 5px #6666FF;
+	background: linear-gradient(to right, #33FF66 , #33FF33); /* 鏍囧噯鐨勮娉� */
+}
+.deleteRecord:hover,.updateRecord:hover{
+	color:orange;
+	text-shadow: 0 0 1px #FF9D6F;
+}
+.myAdd{
+	color:orange;
+}

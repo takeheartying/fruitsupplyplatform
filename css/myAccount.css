@@ -1,0 +1,104 @@
+*{
+	box-sizing:border-box;
+}
+#accountContent{
+	font-size:14px;
+	width:96.5%;
+    height:262px;
+    border: solid 0.1px #F0F0F0;
+}
+#accountInf{
+	margin:0 auto;
+	text-align: center;
+	height:200px;
+	background-color: #F1EEEE;
+
+}
+#userPic{
+	height: 100%;
+	line-height: 200px;
+	float: left;	
+					    
+}
+#accountInf img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+	left:10%;  
+    border-radius: 100px;
+}
+#myInf{
+	/*display: table;*/
+	height: 100%;
+	float: left;
+	position: relative;
+	top:80px;
+
+}
+#designation{
+	color:orange;
+}
+#myAddress{
+	height: 100%;
+	line-height: 200px;
+	float: left;	
+}
+#myMoney{
+	height: 100%;
+	line-height: 200px;
+	float: left;
+}
+#rechargeAndWithdrawal{
+	height: 100%;
+	line-height: 80px;
+    float:right;	
+}
+#rechargeAndWithdrawal button{
+	height: 40px;
+	background-color:	white;
+}
+#rechargeAndWithdrawal button:hover{
+	background-color:#A3D176;
+	color:white;
+}
+#orderContent{
+	height:50px;
+	background-color: white;	
+}
+.order{
+	display: block;
+	float: left;
+	text-align: center;
+}
+#money,.orderNum{
+	color:red;
+}
+.orderDiv{
+	position: relative;
+	top:10px;
+	height:40px;
+	line-height: 40px;
+	border-right: 0.1px solid #F1EEEE;
+}
+#shouHuo{
+	border-right:0px;
+}
+#newOrder{
+	width:96.5%;;
+	height: 300px;
+	border: 0.1px solid #F1EEEE;
+}
+#newOrderTitle{
+    line-height: 50px;
+	height: 50px;	
+	background-color: #F1EEEE;
+	/*font-size:16px;*/
+}
+.glyphicon-list-alt{
+	text-indent: 2%;
+	/*font-size:16px;*/
+}
+#navigation{
+	background-color:white;
+}
+

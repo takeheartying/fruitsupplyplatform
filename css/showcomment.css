@@ -1,0 +1,47 @@
+#content-h2{
+	margin-top: 30px;
+}
+
+
+.uk-button{
+	height: 31px;
+	margin-bottom: 2px;
+	border: none;
+}
+#list-title{
+	height: 30px;
+	line-height: 30px;
+	margin-left: -2%;
+	background-color: #F0F0F0;
+}
+#list-title li{
+	float: left;
+}
+.col-md-9{
+	height: 600px;
+}
+#nav-title{
+	height: 60px;
+}
+#nav-title{
+	line-height:60px;
+	padding-left: 3%;
+	font-size: 24px;
+}
+#nav-title img{
+	float: left;
+}
+#nav-title div{
+	height: 60px;
+	line-height:60px;
+	float: left;
+	font-size: 24px;
+	color:#70a938;
+}
+.uk-table{
+	margin-left: -2%;
+}
+.uk-table td,.uk-table tr{
+	border:1px solid #EAEAEA;
+	height:40px;
+}

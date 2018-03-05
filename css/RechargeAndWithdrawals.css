@@ -1,0 +1,139 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+.col-md-9{
+	height: 570px;
+}
+#accountMoney{
+	/*border:solid red 0.1px;*/
+	height: 40px;
+	font-size: 20px;
+	line-height: 40px;
+}
+#detailsView{
+	color:#A3D176;
+}
+#detailsView:hover{
+	 /*background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(red), to(green));*/
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+       background-image: linear-gradient(to right, #33FF99 ,red);
+}
+#RechargeAndWithdrawals{
+	width:95%;
+	margin-left:0.2%;
+	height:45px;
+	border-bottom:solid 2px #F1EEEE;
+}
+.mycard{
+	margin:0 auto;
+	text-align: center;
+	color:grey;
+	height:100%;
+	line-height: 40px;
+}
+.mycard:nth-child(1){
+ 	color:#A3D176;
+	border-bottom:solid 3px #A3D176;  
+}
+.mycard:hover{
+	/*box-shadow: 0 0 2px #A3D176;*/
+	color:#A3D176;
+	border-bottom:solid 3px #A3D176;
+	/*background-image: linear-gradient(to right, #33FF99 ,	#00DB00);*/
+}
+.mycard a{
+	color:#A3D176;
+}
+#alipay{
+	border:solid  #c50926 0.1px;
+	outline:none;
+	background:url(../images/alipay.jpg) no-repeat 120px 5px; 
+}
+#triangle-bottomright{
+	position: absolute;
+	left:64.6%;
+	top:144px;
+    width: 0;
+    height: 0;
+    border-bottom: 25px solid #c50926;
+    border-left: 25px solid transparent;	
+}
+/*#DaGou{
+	position: absolute;
+	left:38.6%;
+	top:146px;	
+	font-size: 20px;
+	font-weight: border;
+	color:white;	
+}*/
+#dagou{
+	position: absolute;
+	left:65.6%;
+	top:153px;	
+	font-size: 14px;
+	color:white;	
+}
+
+#RechargeSubmitBtn{
+	text-align: center;
+	border-radius: 0;
+	height:40px;
+	position: relative;
+	left:16.5%;
+	cursor: pointer;
+	color:white;
+	background-color: #00ABF0;
+}
+#submitBtn2{
+	border-radius: 0;
+	height:40px;
+	position: relative;
+	left:37.3%;
+	cursor: pointer;
+	color:white;
+  background: -webkit-linear-gradient(left, #33FF99 ,  #33FF66); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #33FF99, #33FF66); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right, #33FF99,  #33FF66); /* Firefox 3.6 - 15 */
+  background: linear-gradient(to right, #33FF99 , #33FF66); /* 标准的语法 */
+}
+#submitBtn2:hover{
+	text-shadow: 0 0 5px #6666FF;
+	background: linear-gradient(to right, #33FF66 , #33FF33); /* 标准的语法 */
+}
+#page1{
+	margin-top: 30px;
+	/*display:none;*/
+}
+#page2{
+	margin-top: 30px;
+	/*display:none;*/
+}
+.uk-form-row{
+	/*border:0.1px solid red;*/
+	padding-left: 25%;
+}
+.prompt{
+	color:red;
+	/*display:none;*/
+	height: 40px;
+	line-height: 40px;
+}
+#messageConfimPrompt{
+	height: 40px;
+	line-height: 40px;	
+}
+#messageConfimPrompt img{
+	height:40px;
+	width:100px;
+}
+#messageConfimPrompt{
+	height:40px;
+	width:100px;
+	display:inline-block;	
+	background-color: #A3D176;
+	/*opacity: 0.9;*/
+	color:white;
+}

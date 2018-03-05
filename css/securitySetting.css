@@ -1,0 +1,59 @@
+.col-md-9{
+	height: 570px;
+}
+#mytitle{
+	height: 50px;
+	line-height: 50px;
+	background-color: ;
+	font-size:16px;
+	border-bottom:solid 0.1px #F1EEEE;
+}
+#updateTitle{
+	height: 50px;
+	line-height: 50px;
+	background-color: ;
+	/*font-size:16px;*/
+	color:orange;
+	border-bottom:solid 0.1px #F1EEEE;	
+}
+#firstInput{
+	margin-top: 30px;
+}
+#submitBtn{
+	border-radius: 0;
+	height:40px;
+	position: relative;
+	left:20%;
+	cursor: pointer;
+	color:white;
+  background: -webkit-linear-gradient(left, #33FF99 ,  #33FF66); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #33FF99, #33FF66); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right, #33FF99,  #33FF66); /* Firefox 3.6 - 15 */
+  background: linear-gradient(to right, #33FF99 , #33FF66); /* 标准的语法 */
+}
+#submitBtn:hover{
+	text-shadow: 0 0 5px #6666FF;
+	background: linear-gradient(to right, #33FF66 , #33FF33); /* 标准的语法 */
+}
+.prompt{
+	color:red;
+	display:none;
+	height: 40px;
+	line-height: 40px;
+}
+#messageConfimPrompt{
+	height: 40px;
+	line-height: 40px;	
+}
+#messageConfimPrompt img{
+	height:40px;
+	width:100px;
+}
+#messageConfimPrompt{
+	height:40px;
+	width:100px;
+	display:inline-block;	
+	background-color: #A3D176;
+	/*opacity: 0.9;*/
+	color:white;
+}

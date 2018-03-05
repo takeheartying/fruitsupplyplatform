@@ -1,0 +1,50 @@
+#search{
+	height: 40px;
+	width:98%;
+	border-bottom:#F1EEEE solid 0.1px;
+}
+.uk-navbar{
+	background-color: white;
+	margin-top: 10px;
+	border-bottom: 1px solid #DFDFDC;
+}
+.uk-navbar-nav{
+	width:40%;
+}
+
+.uk-navbar-nav li{
+	text-align: center;
+	line-height: 50px;
+	height:50px;
+	width:25%;
+}
+.uk-navbar-nav li:hover{
+	background-color:#F8F2F2;
+}
+/*.uk-navbar-nav li a{
+	color: #A6A69F;
+}*/
+
+
+#list-title{
+	height: 30px;
+	line-height: 30px;
+	/*margin-left: -2%;*/
+	background-color: #F0F0F0;
+}
+#list-title li{
+	float: left;
+}
+.col-md-9{
+	height: 570px;
+}
+#dateLabel,#date1,#date2{
+	/*float: left;*/
+}
+.chosen{
+    border-bottom: 3px solid #A3D176;
+    color:#A3D176;
+}
+.nochosen{
+	/*color:#333;*/
+}

@@ -1,0 +1,78 @@
+#mytitle{
+	height: 50px;
+	line-height: 50px;
+	background-color: ;
+	font-size:16px;
+	border-bottom:solid 0.1px #F1EEEE;
+}
+#editAvatar{
+	height: 80px;
+	/*border:solid 0.1px red;*/
+}
+#mypic{
+
+	position: relative;
+	left:14.5%;
+	width: 60px;
+	height: 60px;
+	/*background:url(../images/default-avatar.jpg) no-repeat 0px 0px;*/
+}
+#mypic img{
+	position: relative;
+	top:-45px;
+}
+#mypic:hover,#mypic:focus{
+	/*box-shadow: 0 0 40px red;*/
+}
+#plus{
+	 color:white;
+	 text-align: center;
+	 font-size:50px;
+	 position: relative;
+	 top:-65px;
+	 left:-33%;
+	 text-shadow: 0 0 10px #46A3FF;
+}
+#plus:hover{
+	text-shadow: 0 0 30px 	#0072E3;
+}
+#editText{
+	position: relative;
+	width:60px;
+	height: 20px;
+	left:14.5%;
+	top:-80px;
+	color:white;
+	text-align: center;
+	background-color: grey;	
+}
+#editText:hover{
+	text-shadow: 0 0 10px #46A3FF;	
+	box-shadow:  0 0 5px 	#66B3FF;
+}
+.uk-form-row label{
+	float:left; 
+	height: 40px;
+	line-height: 40px;
+}
+.uk-form-row input{
+	float:left; 	
+}
+#submitBtn{
+	color:white;
+	height: 40px;
+	position: relative;
+	left:25%;
+  background: -webkit-linear-gradient(left, #33FF99 ,  #33FF66); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #33FF99, #33FF66); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right, #33FF99,  #33FF66); /* Firefox 3.6 - 15 */
+  background: linear-gradient(to right, #33FF99 , #33FF66); /* 标准的语法 */
+}
+#submitBtn:hover{
+	color:white;
+	text-shadow: 0 0 5px #6666FF;
+	background: linear-gradient(to right, #33FF66 , #33FF33); /* 标准的语法 */
+}
+#navigation{
+	background-color:white;
+}
